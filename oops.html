@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231017094146">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo logo-header">
+					<div class="logo-header__image"><img src="img/icons/logo.svg" alt="Logo"></div>
+					<div class="logo-header__label">Cinemania</div>
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item-logo"><img src="img/icons/logo.svg" alt="Logo"></li>
+							<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+							<li class="menu__item"><a href="catalog.html" class="menu__link">CATALOG</a></li>
+							<li class="menu__item"><a href="library.html" class="menu__link">MY LIBRARY</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="switch__header header-switch" form="checkbox">
+					<input class="header-switch__input" type="checkbox" id="darkmode-toggle" />
+					<label class="header-switch__label" for="darkmode-toggle"></label>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main-page">
+				<div class="main-page__container">
+					<div class="main-page__slider swiper">
+						<div class="main-page__wrapper swiper-wrapper">
+							<div class="main-page__slide swiper-slide">
+								<div class="swiper-slide__content">
+									<div class="swiper-slide__title">Let’s Make Your Own Cinema</div>
+									<div class="swiper-slide__text">Is a guide to creating a personalized movie theater experience. You'll need a projector, screen, and speakers. Decorate your space, choose your films, and stock up on snacks for the full experience.</div>
+									<div class="swiper-slide__buttons">
+										<a href="#" class="swiper-slide__button button">Get Started</a>
+									</div>
+								</div>
+								<div class="swiper-slide__image">
+									<picture><source srcset="img/main-page/picture01.webp" type="image/webp"><img src="img/main-page/picture01.jpg" alt=""></picture>
+								</div>
+							</div>
+							<div class="main-page__slide swiper-slide">
+								<div class="swiper-slide__content">
+									<div class="swiper-slide__title">Ghosted</div>
+									<div class="swiper-slide__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="swiper-slide__text">Is a guide to creating a personalized movie theater experience. You'll need a projector, screen, and speakers. Decorate your space, choose your films, and stock up on snacks for the full experience.</div>
+									<div class="swiper-slide__buttons">
+										<a href="#" class="swiper-slide__button button">Watch trailer</a>
+										<a href="#" class="swiper-slide__button button botton-more">More details</a>
+									</div>
+								</div>
+								<div class="swiper-slide__image">
+									<picture><source srcset="img/main-page/picture02.webp" type="image/webp"><img src="img/main-page/picture02.jpg" alt=""></picture>
+								</div>
+							</div>
+							<div class="main-page__slide swiper-slide">
+								<div class="swiper-slide__content">
+									<div class="swiper-slide__title">Quantumania</div>
+									<div class="swiper-slide__rating rating rating_set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+									<div class="swiper-slide__text">Super-Hero find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.</div>
+									<div class="swiper-slide__buttons">
+										<a href="#" class="swiper-slide__button button">Watch trailer</a>
+										<a href="#" class="swiper-slide__button button botton-more">More details</a>
+									</div>
+								</div>
+								<div class="swiper-slide__image">
+									<picture><source srcset="img/main-page/picture03.webp" type="image/webp"><img src="img/main-page/picture03.jpg" alt=""></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="oops__block block-oops">
+						<div class="block-oops__container">
+							<a href="index.html" class="block-oops__close">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M17.25 17.25L6.75 6.75M17.25 6.75L6.75 17.25" stroke=#595959 stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</a>
+							<div class="block-oops__body">
+								<div class="block-oops__text"><span>OOPS...</span><br>We are very sorry!<br>But we couldn’t find the trailer.</div>
+								<div class="block-oops__image"><picture><source srcset="img/oops/image01.webp" type="image/webp"><img src="img/oops/image01.png" alt="Image"></picture></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__copy copy-footer">
+					<div class="copy-footer__text">© 2023 | All Rights Reserved | Developed with</div>
+					<img src="img/icons/heart.svg" alt="Icon">
+					<div class="copy-footer__text">by <span>GoIT Students</span></div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231017094146"></script>
+</body>
+
+</html>
